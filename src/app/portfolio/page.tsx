@@ -5,8 +5,8 @@ const orbitron: NextFont = Orbitron({
     subsets: ["latin"],
 })
 
-export default function Home() {
+export default function Portfolio() {
     return (
-        <h1 className={`${orbitron.className} text-3xl text-white`}>Home</h1>
+      <h1 className={`${orbitron.className} text-3xl text-white`}>Portfolio</h1>
     );
 }

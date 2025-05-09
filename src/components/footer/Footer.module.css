@@ -1,0 +1,7 @@
+.footer {
+    @apply bg-tone1 p-2.5 gap-4 w-full rounded-b-lg text-white flex flex-row justify-center items-center;
+}
+
+.footer p {
+    @apply uppercase text-sm;
+}
