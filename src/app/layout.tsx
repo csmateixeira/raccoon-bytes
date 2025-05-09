@@ -26,10 +26,10 @@ export default function RootLayout({children}: Readonly<{
     return (
         <html lang="en">
         <body className={`${firaCode.className}`}>
-        <div className="m-10 flex flex-col bg-tone0 rounded-lg justify-between">
+        <div className="m-10 flex flex-col bg-tone0 justify-between  bg-lake-picture bg-cover brightness-75 rounded-lg">
             <Header/>
 
-            <main className="p-6 w-full">
+            <main className="w-full">
                 {children}
             </main>
 

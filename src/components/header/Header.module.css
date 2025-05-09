@@ -10,6 +10,10 @@
    @apply text-3xl font-medium underline;
 }
 
+.socialContainer {
+    @apply flex flex-row items-center gap-5;
+}
+
 .navLinks {
     @apply gap-5 flex flex-row items-center uppercase text-sm;
 }

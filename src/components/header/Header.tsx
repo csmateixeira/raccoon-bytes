@@ -26,7 +26,9 @@ export function Header() {
             <div className={styles.navLinks}>
                 <Link href="/portfolio">My Career</Link>
                 <p>/</p>
-                <Link href="/interests">My Life</Link>
+                <Link href="/interests">Other Interests</Link>
+                <p>/</p>
+                <Link href="/contacts">Contact Me</Link>
             </div>
         </header>
     );

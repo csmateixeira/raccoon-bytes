@@ -11,7 +11,7 @@ import styles from './Footer.module.css';
 export function Footer() {
     return (
         <footer className={`${orbitron.className} ${styles.footer}`}>
-            <p>Find me on:</p>
+            <p>Find me:</p>
             <a href="https://github.com/csmateixeira" target="_blank" rel="noopener noreferrer">
                 <Image src="/github.svg" alt="Github Logo"
                        width={25} height={25}/>
